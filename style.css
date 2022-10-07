@@ -1,0 +1,55 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color: #202124;;
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 7rem;
+    color: white;
+}
+
+.container{
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+.row{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    outline: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    font-size: 14px;
+    
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+    color: #bdc1c6;
+}
+
+#microphone{
+    cursor: pointer;
+    padding: 5px 8px;
+    color: #bdc1c6;
+}
